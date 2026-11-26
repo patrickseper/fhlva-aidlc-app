@@ -1,0 +1,14 @@
+01-smoke start=13:34:46 end=13:35:33 EXIT=0
+02-baseline5 start=13:35:33 end=13:37:47 EXIT=0
+03-gate5 start=13:37:47 end=13:39:04 EXIT=0
+04-spike10x5 start=13:39:04 end=13:44:22 EXIT=0
+05-spike40x5 start=13:44:22 end=13:52:03 EXIT=0
+06-baseline200 start=13:52:03 end=13:57:26 EXIT=0
+07-gate200 start=13:57:26 end=14:01:33 EXIT=0
+08-newcomers1x1 start=14:01:33 end=14:03:32 EXIT=0
+09-newcomers2x5 start=14:03:32 end=14:06:36 EXIT=99
+10-smoke-direct start=14:06:36 end=14:08:36 EXIT=99
+11-smoke-recovered start=14:11:32 end=14:12:23 EXIT=0
+SUITE DONE
+
+[exited with code 0]

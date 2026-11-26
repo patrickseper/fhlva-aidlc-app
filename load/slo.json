@@ -1,10 +1,10 @@
 {
-  "_comment": "Your group's SLOs as k6 thresholds. Placeholder values: replace them with your own. errorRate is a fraction (0.01 = 1 %); p95/p99 are milliseconds. Step names are the 'name' tags in script.js.",
-  "errorRate": 0.01,
+  "_comment": "G2 Collectors SLOs from Lab 2 (statistics-service) as k6 thresholds. errorRate = availability SLO 99.5 % -> 0.005 (k6 counts every failed request across all steps, so this is stricter than the 5xx-only SLI). Statistics steps: >= 95 % < 300 ms and >= 99 % < 1 s. The other steps have no SLO of their own; they keep the 1 s placeholder so they appear in the summary. Data freshness (cached_at < 30 min) is not a request metric and cannot be expressed here.",
+  "errorRate": 0.005,
   "steps": {
-    "statistics_me": { "p95": 1000 },
-    "statistics_trend": { "p95": 1000 },
-    "statistics_global": { "p95": 1000 },
+    "statistics_me": { "p95": 300, "p99": 1000 },
+    "statistics_trend": { "p95": 300, "p99": 1000 },
+    "statistics_global": { "p95": 300, "p99": 1000 },
     "tracking_list": { "p95": 1000 },
     "tracking_create": { "p95": 1000 },
     "notifications_list": { "p95": 1000 }

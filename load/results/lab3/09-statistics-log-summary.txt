@@ -1,0 +1,7 @@
+    910 "message":"SQL Error: 0, SQLState: null
+    910 "message":"HikariPool-1 - Connection is not available, request timed out after Nms (total=10, act
+    909 "message":"Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception 
+    399 "message":"No personal stats cache for userId=<uuid>, triggering on-dem
+    351 "message":"Personal stats refreshed for userId=<uuid>
+      1 "message":"Unexpected error occurred in scheduled task
+      1 "message":"Starting scheduled statistics cache refresh
