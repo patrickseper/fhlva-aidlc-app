@@ -55,8 +55,6 @@ spec:
     statistics-service:
       image:
         tag: v4
-      env:
-        FEATURE_LIVE_TREND: "true"
     frontend:
       image:
         tag: latest
