@@ -54,7 +54,7 @@ spec:
         tag: latest
     statistics-service:
       image:
-        tag: v2
+        tag: v4
     frontend:
       image:
         tag: latest
